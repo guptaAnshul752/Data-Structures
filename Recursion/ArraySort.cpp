@@ -34,6 +34,7 @@ int main()
     int b[]={1,2,9,6,8};
     cout<<"Is Array Sorted: "<<sorted(a,5)<<endl;
     cout<<"Is Array Sorted: "<<sorted2(b,5);
+    
 }
 
 
