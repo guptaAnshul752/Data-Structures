@@ -1,2 +1,2 @@
 # Data-Structures
-Data Structures Implemented in C++ Language
+Implemented Code for Data Structures in C++
