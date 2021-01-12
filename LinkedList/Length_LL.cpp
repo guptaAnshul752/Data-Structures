@@ -2,9 +2,21 @@
 // Length of linked list iterative
 #include<iostream>
 
-#include "Node.cpp"
-
 using namespace std;
+
+class Node{
+   public:
+   int data;
+   Node *next;
+
+   // Creating a constructor
+
+   Node(int data)
+   {
+       this -> data = data;
+       next = NULL;
+   }
+};
 
 // Creating a function of Node type to take input
 Node* takeInput_Better()
