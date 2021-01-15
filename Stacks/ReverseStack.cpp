@@ -14,7 +14,6 @@ void reverseStack(stack<int> &input, stack<int> &extra) {
         extra.push(input.top());
         input.pop();
     }
-
     input = extra;
 }
 
