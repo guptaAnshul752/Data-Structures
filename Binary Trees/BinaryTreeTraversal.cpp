@@ -6,6 +6,8 @@
 #include<iostream>
 #include<queue>
 
+using namespace std;
+
 template <typename T>
 
 // Binary TreeNode Class
