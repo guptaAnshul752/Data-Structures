@@ -30,7 +30,6 @@ class BinaryTreeNode{
 
         // Destructor
         // First deletes the child den root
-
         ~BinaryTreeNode(){
         delete left;
         delete right;
