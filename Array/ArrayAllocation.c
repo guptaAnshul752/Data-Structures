@@ -17,7 +17,6 @@ int main(){
     printf("Static Allocation: ");
     for (int i=0;i<5;i++){
         printf("%d",A[i]);
-
     }
     printf("\n");
     printf("Dynamic: ");
