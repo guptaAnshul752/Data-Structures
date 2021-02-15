@@ -111,6 +111,7 @@ void printTree(BinaryTreeNode<int>* root) {
 }
 
 void elementsInRangeK1K2(BinaryTreeNode<int>* root, int k1, int k2) {
+    
     if(root==NULL)
         return;
     if(root->data>k1)
