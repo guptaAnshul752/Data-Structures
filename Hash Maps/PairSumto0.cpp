@@ -27,7 +27,7 @@ void PairSum(int *input, int n) {
                 m[input[i]]=1;
      	}
 
- 	}
+ }
 
 int main()
 {
