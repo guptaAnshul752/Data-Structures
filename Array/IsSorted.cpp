@@ -69,7 +69,6 @@ int shiftneg(int arr[],int n)
     displayarr(arr,n);
 }
 
-
 int main()
 {
     int A[5] = {1,2,5,7,9};
