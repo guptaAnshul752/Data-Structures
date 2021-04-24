@@ -68,6 +68,7 @@ BinaryTreeNode<int>* takeInput(){
         front->left = leftChild;
         pendingNodes.push(leftChild);
         }
+        
         // Right child data
         int rightData;
         cout << "Enter the Right Child of " << front->data <<" : ";
@@ -75,10 +76,13 @@ BinaryTreeNode<int>* takeInput(){
         // Right Node
         if (rightData != -1)
         {
+            
         BinaryTreeNode<int>* rightChild = new BinaryTreeNode<int>(rightData);
+            
         // Linking left Node
         front->right = rightChild;
         pendingNodes.push(rightChild);
+            
         }
     }
 
@@ -147,6 +151,7 @@ bool IsBST(BinaryTreeNode<int>* root) {
 // Input tree
 // IN-1 : 9 5 10 1 6 9 12 -1 -1 -1 -1 -1 -1 -1 -1
 // IN-2 : 1 3 2 3 4 2 5 6 2 7 8 -1 -1 -1 -1 1 9 -1
+
 int main()
 {
     // Taking Input
