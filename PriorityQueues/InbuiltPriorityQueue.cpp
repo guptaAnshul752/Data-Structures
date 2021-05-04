@@ -34,6 +34,7 @@ int main(){
         cout << p.top() << " ";
         p.pop();
     }
+    
     // Removing elements
     //p.pop();
     //p.pop();
@@ -43,6 +44,5 @@ int main(){
 
     // Max element after removing
     //cout << "Max element: " << p.top() << endl;
-
 
 }
