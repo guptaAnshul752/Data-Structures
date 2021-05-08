@@ -55,7 +55,6 @@ void printIthNode (Node *head, int i) {
     }    
 }
 
-
 int main() {
     Node *head = takeinput();
     int pos;
