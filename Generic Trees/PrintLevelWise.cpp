@@ -31,7 +31,6 @@ class TreeNode{
     }
 };
 
-
 //Taking Input Tree Level Wise Function
 TreeNode<int>* TakeInputLevelWise(){
 
@@ -94,10 +93,11 @@ void printLevelWise(TreeNode<int>* root) {
             if(i<pending.front()->children.size()-1){
                 cout<<",";
             }
-
         }
-        cout<<endl;
-        pending.pop();
+        
+    cout<<endl;
+        
+    pending.pop();
     }
 }
 
