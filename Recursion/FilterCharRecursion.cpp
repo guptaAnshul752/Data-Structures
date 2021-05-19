@@ -46,6 +46,4 @@ int main()
     cout<<str<<endl;
     cout<<"Length of Character array after: "<<len(str);
 
-
 }
-
