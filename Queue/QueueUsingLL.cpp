@@ -50,6 +50,7 @@ class QueueUsingLL{
 
     // Return First Element
     T Front(){
+        
         if (head == NULL){
             cout << "Queue is Empty! " <<endl;
         }
@@ -67,6 +68,7 @@ class QueueUsingLL{
             head = newNode;
             tail = newNode;
         }
+        
     tail -> next = newNode;
     tail = newNode;
     Size++;
