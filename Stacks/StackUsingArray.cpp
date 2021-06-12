@@ -12,7 +12,6 @@
 
 using namespace std;
 
-
 class StackUsingArray {
 
     // Array and other datamembers are declared private so to avoid its direct usage beyond the class.
