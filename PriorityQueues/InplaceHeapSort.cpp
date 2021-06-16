@@ -31,6 +31,7 @@ void InplaceheapSort(int arr[],int n){
             childIdx = parentIdx;
     }
     }
+    
     // Remove Min
     // Swapping root with element at last index
     int size = n;
@@ -60,6 +61,7 @@ void InplaceheapSort(int arr[],int n){
     if (minIdx == ParentIdx){
         break;
     }
+        
     // Swapping parent with child
     int temp = arr[minIdx];
     arr[minIdx] = arr[ParentIdx];
