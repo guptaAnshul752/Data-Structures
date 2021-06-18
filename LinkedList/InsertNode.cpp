@@ -86,6 +86,7 @@ Node* insertNode(Node *head,int data, int i)
     }
     return head;
 }
+
 void print(Node *head)
 {
 
@@ -95,25 +96,32 @@ void print(Node *head)
         head = head->next;
     }
 }
+
 int main()
 {
     cout << "Enter the data in linked list: ";
+   
     Node *head = takeInput_Better();
+   
     cout << "Linked List is: ";
+   
     print(head);
+   
     cout << "\n";
     // Inserting at ith position
     int data,i;
+   
     cout << "Enter the element you want to insert: ";
+   
     cin>>data;
+   
     cout << "Enter at what Index element should be inserted:";
+   
     cin>>i;
 
     head = insertNode(head,data,i);
+   
     print(head);
 
 
 }
-
-
-
