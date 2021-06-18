@@ -53,9 +53,13 @@ Node* mergeTwoLLs(Node *head1, Node *head2) {
 }
 
 Node* takeinput() {
+    
     int data;
+    
     cin >> data;
+    
     Node* head = NULL, *tail = NULL;
+    
     while(data != -1){
         Node *newNode = new Node(data);
         if(head == NULL)                  {
@@ -72,7 +76,9 @@ Node* takeinput() {
 }
 
 void print(Node *head) {
+    
     Node *temp = head;
+    
     while(temp != NULL) {
         cout << temp -> data << " ";
         temp = temp -> next;
