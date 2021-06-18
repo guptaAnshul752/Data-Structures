@@ -52,17 +52,16 @@ Node* takeInput()
 
 void print(Node *head)
 {
-
     while(head != NULL)
     {
         cout << head->data <<" ";
         head = head->next;
     }
 }
+
 int main()
 {
     Node *head = takeInput();
 
     print(head);
 }
-
