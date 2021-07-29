@@ -1,6 +1,7 @@
-/* Recursion-2 */
-// 2
-/* Filter character in a char array */
+// Recursion-2
+
+/// Filter character in a char array
+
 #include<iostream>
 
 using namespace std;
