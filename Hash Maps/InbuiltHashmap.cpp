@@ -46,5 +46,4 @@ int main() {
     if (hashmap.count("def") > 0){
         cout << "Present" << endl;
     }
-
 }
