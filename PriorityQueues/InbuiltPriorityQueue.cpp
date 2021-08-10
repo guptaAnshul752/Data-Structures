@@ -44,6 +44,4 @@ int main(){
 
     // Max element after removing
     //cout << "Max element: " << p.top() << endl;
-
 }
-
