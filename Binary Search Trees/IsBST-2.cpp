@@ -151,6 +151,7 @@ bool isBST(BinaryTreeNode<int> *root){
 
 // Input tree
 // IN-1 : 15 5 20 1 6 16 22 -1 -1 -1 -1 -1 -1 -1 -1
+
 int main()
 {
     // Taking Input
@@ -165,4 +166,5 @@ int main()
 
     // Delete tree
     delete root;
+    
 }
