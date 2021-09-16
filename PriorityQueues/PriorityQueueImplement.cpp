@@ -132,5 +132,4 @@ int main()
         cout << p.removeVal() << " ";
     }
     cout << endl;
-
 }
